@@ -351,10 +351,10 @@
       <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name="gazebo_motor_failure_plugin" filename="libgazebo_motor_failure_plugin.so">
-  <robotNamespace/>   <!-- Replace with your drone's namespace -->
-  <ROSMotorNumSubTopic>/motor_failure_cmd</ROSMotorNumSubTopic> <!-- ROS 2 topic to listen for motor failure commands -->
-  <MotorFailureNumPubTopic>/motor_failure_status</MotorFailureNumPubTopic> <!-- Gazebo topic to publish motor failure status -->
-</plugin>
+      <robotNamespace/>   <!-- Replace with your drone's namespace -->
+      <ROSMotorNumSubTopic>/motor_failure_cmd</ROSMotorNumSubTopic> <!-- ROS 2 topic to listen for motor failure commands -->
+      <MotorFailureNumPubTopic>/motor_failure_status</MotorFailureNumPubTopic> <!-- Gazebo topic to publish motor failure status -->
+    </plugin>
 
     <plugin name='front_right_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
